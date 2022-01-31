@@ -15,7 +15,7 @@ use App\Http\Livewire\Posts;
 */
 
 Route::get('/', function () {
-    // auth()->user()->assignRole('admin');
+   // auth()->user()->assignRole('admin');
 
     return view('welcome');
 });

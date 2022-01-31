@@ -20,7 +20,7 @@ class CreatePostsTable extends Migration
             $table->string('slud');
             $table->text('body');
             $table->string('image');
-            $table->boolean('active');
+            $table->boolean('active')->default(1);
             $table->timestamps();
         });
     }
